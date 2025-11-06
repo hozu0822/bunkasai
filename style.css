@@ -1,0 +1,55 @@
+/* 全体の基本設定 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px 0;
+}
+
+/* セクション全体 */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* プロフィール画像 */
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* リストの装飾を消す */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* リンクのデザイン */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* セクション間の余白 */
+section:not(:last-of-type) {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
